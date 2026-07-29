@@ -42,7 +42,7 @@ export function Footer() {
           <p>
             © {new Date().getFullYear()} Lapidando Tesouros.{" "}
             <a
-              href="https://www.evoluxx-olive.vercel.app"
+              href="https://evoluxx-olive.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
             >
