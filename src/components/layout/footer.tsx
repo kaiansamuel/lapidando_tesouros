@@ -39,7 +39,16 @@ export function Footer() {
               <small>Aparecida de Goiânia — GO</small>
             </span>
           </div>
-          <p>© {new Date().getFullYear()} Lapidando Tesouros.</p>
+          <p>
+            © {new Date().getFullYear()} Lapidando Tesouros.{" "}
+            <a
+              href="https://www.evoluxx-olive.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Desenvolvido por Evolux
+            </a>
+          </p>
           <a className="back-to-top" href="#inicio">
             Voltar ao topo <ArrowUp size={16} aria-hidden="true" />
           </a>
